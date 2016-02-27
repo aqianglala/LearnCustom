@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customText" format="string"/>
+    <attr name="customTextColor" format="color"/>
+    <attr name="customTextSize" format="dimension"/>
+    
+    <declare-styleable name="CustomTitleView">
+        <attr name="customText"/>
+        <attr name="customTextColor"/>
+        <attr name="customTextSize"/>
+    </declare-styleable>
+
+    <!--**********************************-->
+
+    <attr name="ImgText" format="string"/>
+    <attr name="ImgTextSize" format="dimension"/>
+    <attr name="ImgTextColor" format="color"/>
+    <attr name="ImgTextImgRec" format="reference"/>
+    <attr name="ImgTextScaleType">
+        <enum name="fitXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+
+    <declare-styleable name="ImgTextView">
+        <attr name="ImgText"/>
+        <attr name="ImgTextSize"/>
+        <attr name="ImgTextColor"/>
+        <attr name="ImgTextImgRec"/>
+        <attr name="ImgTextScaleType"/>
+    </declare-styleable>
+
+    <!--**********************************-->
+    <attr name="firstColor" format="color"/>
+    <attr name="secondColor" format="color"/>
+    <attr name="circleWidth" format="dimension"/>
+    <attr name="speed" format="integer"/>
+    
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="speed"/>
+    </declare-styleable>
+
+    <!--**********************************-->
+    <attr name="MusicFirstColor" format="color"/>
+    <attr name="MusicSecondColor" format="color"/>
+    <attr name="MusicCircleWidth" format="dimension"/>
+    <attr name="MusicDotCount" format="integer"/>
+    <attr name="MusicSplitSize" format="integer"/>
+    <attr name="MusicBg" format="reference"/>
+
+    <declare-styleable name="MusicProgressBar">
+        <attr name="MusicFirstColor" />
+        <attr name="MusicSecondColor" />
+        <attr name="MusicCircleWidth" />
+        <attr name="MusicDotCount" />
+        <attr name="MusicSplitSize" />
+        <attr name="MusicBg" />
+    </declare-styleable>
+</resources>

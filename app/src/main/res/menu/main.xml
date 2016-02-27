@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_define1"
+          android:title="随机文字"
+          android:icon="@mipmap/ic_launcher"
+          app:showAsAction="never"
+          />
+
+    <item android:id="@+id/menu_define2"
+          android:title="带文字的图片"
+          android:icon="@mipmap/ic_launcher"
+          app:showAsAction="never"
+          />
+
+    <item android:id="@+id/menu_define3"
+          android:title="自定义进度条"
+          android:icon="@mipmap/ic_launcher"
+          app:showAsAction="never"
+          />
+
+    <item android:id="@+id/menu_define4"
+          android:title="音量进度条"
+          android:icon="@mipmap/ic_launcher"
+          app:showAsAction="never"
+          />
+
+</menu>
