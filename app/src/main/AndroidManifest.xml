@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".activity.CustomViewgroup01Activity">
         </activity>
+        <activity android:name=".activity.FlowLayoutActivity">
+        </activity>
+        <activity android:name=".activity.VerticalLinearLayoutActivity">
+        </activity>
     </application>
 
 </manifest>

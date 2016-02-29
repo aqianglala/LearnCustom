@@ -13,6 +13,8 @@ import com.example.admin.myapplication.R;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btn_custom_viewgroup1;
+    private Button btn_flowLayout;
+    private Button btn_verticalLinearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         btn_custom_viewgroup1 = (Button) findViewById(R.id.btn_custom_viewgroup1);
+        btn_flowLayout = (Button) findViewById(R.id.btn_flowLayout);
+        btn_verticalLinearLayout = (Button) findViewById(R.id.btn_verticalLinearLayout);
+
         btn_custom_viewgroup1.setOnClickListener(this);
+        btn_flowLayout.setOnClickListener(this);
+
+        btn_verticalLinearLayout.setOnClickListener(this);
     }
 
     @Override
@@ -54,12 +62,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_custom_viewgroup1:
                 startActivity(new Intent(this, CustomViewgroup01Activity.class));
                 break;
-//            case R.id.btn_custom_viewgroup1:
-//
-//                break;
-//            case R.id.btn_custom_viewgroup1:
-//
-//                break;
+            case R.id.btn_flowLayout:
+                startActivity(new Intent(this,FlowLayoutActivity.class));
+                break;
+            case R.id.btn_verticalLinearLayout:
+                startActivity(new Intent(this,VerticalLinearLayoutActivity.class));
+                break;
 //            case R.id.btn_custom_viewgroup1:
 //
 //                break;
